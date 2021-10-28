@@ -14,9 +14,6 @@ public:
 	//si number appartient a l intervalle 
 	bool operator[](double number) const;
 
-	//si un intervalle inclu dans l'intervalle 
-	bool operator()(Intervalle& Inter) const;
-
 	//union 
 	Intervalle& operator| (Intervalle& Inte); 
 

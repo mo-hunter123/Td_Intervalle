@@ -42,10 +42,6 @@ bool Intervalle::operator[](double number) const
 	return (this->borneInf <= number && number <= this->borneSup);
 }
 
-bool Intervalle::operator()(Intervalle& Inter) const
-{
-	return false;
-}
 
 Intervalle& Intervalle::operator|(Intervalle& Inte)
 {
